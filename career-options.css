@@ -1,0 +1,47 @@
+.career-options-row {
+  margin-top: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1300px;
+}
+
+.career-options-row ul {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .career-options-row {
+    flex-direction: column-reverse;
+  }
+  .career-options-row img {
+    max-width: 100% !important;
+  }
+}
+
+.career-options-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.career-options-list li {
+  font-size: 1rem;
+  text-wrap: normal;
+  margin-bottom: 0.5rem;
+}
+
+.career-options-list li:last-child {
+  margin-bottom: 0;
+}
+
+.career-options-row img {
+  max-width: 50%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
